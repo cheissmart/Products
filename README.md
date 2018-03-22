@@ -18,7 +18,7 @@ a.exe
 git clone https://github.com/cheissmart/ToBinary.git
 cd ToBinary
 g++ toBinary.cpp
-a.out
+./a.out
 ```
 
 ### For Linux
@@ -26,5 +26,5 @@ a.out
 git clone https://github.com/cheissmart/ToBinary.git
 cd ToBinary
 g++ toBinary.cpp
-a.out
+./a.out
 ```
