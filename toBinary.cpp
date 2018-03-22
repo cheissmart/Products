@@ -6,10 +6,8 @@ using namespace std;
 
 void printBin(int n) {
     cout << "The binary of " << n << " is "; 
-    cout << (n < 0 ? "-" : "");
-    n = abs(n);
-    int mask = 1 << 30;
-    for(int i=0;i<31;i++) {
+    int mask = 1 << 31;
+    for(int i=0;i<32;i++) {
         cout << ((mask & n) ? 1 : 0);
         mask >>= 1;
     }
