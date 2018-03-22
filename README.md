@@ -1,4 +1,8 @@
 # ToBinary
+
+## Discription
+Input an interger n.
+Output the binary of n.
 ## Installation
 
 ### For Windows
