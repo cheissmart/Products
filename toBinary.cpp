@@ -17,7 +17,7 @@ void printBin(int n) {
 int main()
 {
     int n;
-    cout << "Input a number:";
+    cout << " Enter a number:";
     cin >> n;
     printBin(n);
 }
